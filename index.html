@@ -192,10 +192,12 @@
 
       for (let i = 0; i <= elements.length; i++) {
         rellaxes.push(new Rellax(elements[i]));
+
         elements[i].setAttribute(
           "data-rellax-speed",
           Math.ceil(Math.random() * 4) - 2
         );
+
         elements[i].setAttribute("data-rellax-percentage", "0.5");
       }
     </script>
